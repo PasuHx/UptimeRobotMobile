@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D25BE0619BC538E00579C10 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE0419BC538E00579C10 /* SlideNavigationController.m */; };
+		4D25BE1219BC53A800579C10 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE0919BC53A800579C10 /* SlideNavigationContorllerAnimatorFade.m */; };
+		4D25BE1319BC53A800579C10 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE0B19BC53A800579C10 /* SlideNavigationContorllerAnimatorScale.m */; };
+		4D25BE1419BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE0D19BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		4D25BE1519BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE0F19BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		4D25BE1619BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE1119BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
 		4D5F166519B9A1CF003BC065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5F166419B9A1CF003BC065 /* Foundation.framework */; };
 		4D5F166719B9A1CF003BC065 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5F166619B9A1CF003BC065 /* CoreGraphics.framework */; };
 		4D5F166919B9A1CF003BC065 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5F166819B9A1CF003BC065 /* UIKit.framework */; };
@@ -34,6 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D25BE0419BC538E00579C10 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = Resources/Controls/SlideNavigationController.m; sourceTree = "<group>"; };
+		4D25BE0519BC538E00579C10 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = Resources/Controls/SlideNavigationController.h; sourceTree = "<group>"; };
+		4D25BE0719BC53A800579C10 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = Resources/Controls/Animations/SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		4D25BE0819BC53A800579C10 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		4D25BE0919BC53A800579C10 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		4D25BE0A19BC53A800579C10 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		4D25BE0B19BC53A800579C10 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		4D25BE0C19BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		4D25BE0D19BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		4D25BE0E19BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		4D25BE0F19BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		4D25BE1019BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		4D25BE1119BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
 		4D5F166119B9A1CF003BC065 /* UptimeRobotMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UptimeRobotMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5F166419B9A1CF003BC065 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D5F166619B9A1CF003BC065 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +98,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D25BE0019BC515800579C10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D25BE0119BC519200579C10 /* Controls */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D25BE0119BC519200579C10 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				4D25BE0219BC519E00579C10 /* SlideMenu */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		4D25BE0219BC519E00579C10 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4D25BE0419BC538E00579C10 /* SlideNavigationController.m */,
+				4D25BE0519BC538E00579C10 /* SlideNavigationController.h */,
+				4D25BE0319BC525B00579C10 /* Animations */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		4D25BE0319BC525B00579C10 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4D25BE0719BC53A800579C10 /* SlideNavigationContorllerAnimator.h */,
+				4D25BE0819BC53A800579C10 /* SlideNavigationContorllerAnimatorFade.h */,
+				4D25BE0919BC53A800579C10 /* SlideNavigationContorllerAnimatorFade.m */,
+				4D25BE0A19BC53A800579C10 /* SlideNavigationContorllerAnimatorScale.h */,
+				4D25BE0B19BC53A800579C10 /* SlideNavigationContorllerAnimatorScale.m */,
+				4D25BE0C19BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				4D25BE0D19BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				4D25BE0E19BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.h */,
+				4D25BE0F19BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m */,
+				4D25BE1019BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				4D25BE1119BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
 		4D5F165819B9A1CF003BC065 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +175,7 @@
 		4D5F166A19B9A1CF003BC065 /* UptimeRobotMobile */ = {
 			isa = PBXGroup;
 			children = (
+				4D25BE0019BC515800579C10 /* Resources */,
 				4D5F167319B9A1CF003BC065 /* URMAppDelegate.h */,
 				4D5F167419B9A1CF003BC065 /* URMAppDelegate.m */,
 				4D5F167619B9A1CF003BC065 /* Main.storyboard */,
@@ -251,8 +315,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5F167B19B9A1CF003BC065 /* URMViewController.m in Sources */,
+				4D25BE1319BC53A800579C10 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				4D25BE1619BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				4D25BE1419BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				4D5F167119B9A1CF003BC065 /* main.m in Sources */,
+				4D25BE1519BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				4D5F167519B9A1CF003BC065 /* URMAppDelegate.m in Sources */,
+				4D25BE0619BC538E00579C10 /* SlideNavigationController.m in Sources */,
+				4D25BE1219BC53A800579C10 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +527,7 @@
 				4D5F169519B9A1CF003BC065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D5F169619B9A1CF003BC065 /* Build configuration list for PBXNativeTarget "UptimeRobotMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +536,7 @@
 				4D5F169819B9A1CF003BC065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
