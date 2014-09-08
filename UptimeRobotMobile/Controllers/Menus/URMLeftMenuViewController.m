@@ -42,7 +42,6 @@
                      ,nil];
     
     self.tableView.contentInset=UIEdgeInsetsMake(52, 0, 0, 0);
-    //[self.view addSubview:self.tableView];
     [self.tableView addSubview:self.topImg];
     self.topImg.frame=CGRectMake(5, -38, 180, 52);
     // Uncomment the following line to preserve selection between presentations.
