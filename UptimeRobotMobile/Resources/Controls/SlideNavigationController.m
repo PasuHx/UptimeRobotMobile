@@ -45,7 +45,7 @@ typedef enum {
 #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 #define MENU_SLIDE_ANIMATION_DURATION .3
 #define MENU_QUICK_SLIDE_ANIMATION_DURATION .18
-#define MENU_IMAGE @"menu-button"
+#define MENU_IMAGE @"LeftIcon"
 #define MENU_SHADOW_RADIUS 10
 #define MENU_SHADOW_OPACITY 1
 #define MENU_DEFAULT_SLIDE_OFFSET 60

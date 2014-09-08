@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideNavigationController.h"
 
-@interface URMViewController : UIViewController
+@interface URMViewController : UIViewController <SlideNavigationControllerDelegate>
 
 @end

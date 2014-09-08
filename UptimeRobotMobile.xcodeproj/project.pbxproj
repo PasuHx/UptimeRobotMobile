@@ -13,6 +13,11 @@
 		4D25BE1419BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE0D19BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
 		4D25BE1519BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE0F19BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m */; };
 		4D25BE1619BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE1119BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		4D25BE1B19BC560400579C10 /* URMLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE1A19BC560400579C10 /* URMLeftMenuViewController.m */; };
+		4D25BE1D19BC646700579C10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D25BE1C19BC646700579C10 /* QuartzCore.framework */; };
+		4D25BE2119BD896000579C10 /* URMMyServersHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE2019BD896000579C10 /* URMMyServersHomeController.m */; };
+		4D25BE2519BD953200579C10 /* URMMyContactsHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE2419BD953200579C10 /* URMMyContactsHomeController.m */; };
+		4D25BE2819BD95BB00579C10 /* URMAddMyServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE2719BD95BB00579C10 /* URMAddMyServerController.m */; };
 		4D5F166519B9A1CF003BC065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5F166419B9A1CF003BC065 /* Foundation.framework */; };
 		4D5F166719B9A1CF003BC065 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5F166619B9A1CF003BC065 /* CoreGraphics.framework */; };
 		4D5F166919B9A1CF003BC065 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5F166819B9A1CF003BC065 /* UIKit.framework */; };
@@ -53,6 +58,15 @@
 		4D25BE0F19BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
 		4D25BE1019BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
 		4D25BE1119BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = Resources/Controls/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		4D25BE1919BC560400579C10 /* URMLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URMLeftMenuViewController.h; path = Controllers/Menus/URMLeftMenuViewController.h; sourceTree = "<group>"; };
+		4D25BE1A19BC560400579C10 /* URMLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URMLeftMenuViewController.m; path = Controllers/Menus/URMLeftMenuViewController.m; sourceTree = "<group>"; };
+		4D25BE1C19BC646700579C10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D25BE1F19BD896000579C10 /* URMMyServersHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URMMyServersHomeController.h; path = Controllers/MyServers/URMMyServersHomeController.h; sourceTree = "<group>"; };
+		4D25BE2019BD896000579C10 /* URMMyServersHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URMMyServersHomeController.m; path = Controllers/MyServers/URMMyServersHomeController.m; sourceTree = "<group>"; };
+		4D25BE2319BD953200579C10 /* URMMyContactsHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URMMyContactsHomeController.h; path = Controllers/MyContacts/URMMyContactsHomeController.h; sourceTree = "<group>"; };
+		4D25BE2419BD953200579C10 /* URMMyContactsHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URMMyContactsHomeController.m; path = Controllers/MyContacts/URMMyContactsHomeController.m; sourceTree = "<group>"; };
+		4D25BE2619BD95BB00579C10 /* URMAddMyServerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URMAddMyServerController.h; path = Controllers/MyServers/URMAddMyServerController.h; sourceTree = "<group>"; };
+		4D25BE2719BD95BB00579C10 /* URMAddMyServerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URMAddMyServerController.m; path = Controllers/MyServers/URMAddMyServerController.m; sourceTree = "<group>"; };
 		4D5F166119B9A1CF003BC065 /* UptimeRobotMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UptimeRobotMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5F166419B9A1CF003BC065 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D5F166619B9A1CF003BC065 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D25BE1D19BC646700579C10 /* QuartzCore.framework in Frameworks */,
 				4D5F166719B9A1CF003BC065 /* CoreGraphics.framework in Frameworks */,
 				4D5F166919B9A1CF003BC065 /* UIKit.framework in Frameworks */,
 				4D5F166519B9A1CF003BC065 /* Foundation.framework in Frameworks */,
@@ -101,6 +116,7 @@
 		4D25BE0019BC515800579C10 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4D25BE1719BC558200579C10 /* Controllers */,
 				4D25BE0119BC519200579C10 /* Controls */,
 			);
 			name = Resources;
@@ -142,6 +158,45 @@
 			name = Animations;
 			sourceTree = "<group>";
 		};
+		4D25BE1719BC558200579C10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D25BE2219BD94FC00579C10 /* MyContacts */,
+				4D25BE1E19BD887F00579C10 /* MyServers */,
+				4D25BE1819BC559400579C10 /* Menus */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4D25BE1819BC559400579C10 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				4D25BE1919BC560400579C10 /* URMLeftMenuViewController.h */,
+				4D25BE1A19BC560400579C10 /* URMLeftMenuViewController.m */,
+			);
+			name = Menus;
+			sourceTree = "<group>";
+		};
+		4D25BE1E19BD887F00579C10 /* MyServers */ = {
+			isa = PBXGroup;
+			children = (
+				4D25BE1F19BD896000579C10 /* URMMyServersHomeController.h */,
+				4D25BE2019BD896000579C10 /* URMMyServersHomeController.m */,
+				4D25BE2619BD95BB00579C10 /* URMAddMyServerController.h */,
+				4D25BE2719BD95BB00579C10 /* URMAddMyServerController.m */,
+			);
+			name = MyServers;
+			sourceTree = "<group>";
+		};
+		4D25BE2219BD94FC00579C10 /* MyContacts */ = {
+			isa = PBXGroup;
+			children = (
+				4D25BE2319BD953200579C10 /* URMMyContactsHomeController.h */,
+				4D25BE2419BD953200579C10 /* URMMyContactsHomeController.m */,
+			);
+			name = MyContacts;
+			sourceTree = "<group>";
+		};
 		4D5F165819B9A1CF003BC065 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +219,7 @@
 		4D5F166319B9A1CF003BC065 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D25BE1C19BC646700579C10 /* QuartzCore.framework */,
 				4D5F166419B9A1CF003BC065 /* Foundation.framework */,
 				4D5F166619B9A1CF003BC065 /* CoreGraphics.framework */,
 				4D5F166819B9A1CF003BC065 /* UIKit.framework */,
@@ -315,10 +371,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5F167B19B9A1CF003BC065 /* URMViewController.m in Sources */,
+				4D25BE1B19BC560400579C10 /* URMLeftMenuViewController.m in Sources */,
+				4D25BE2519BD953200579C10 /* URMMyContactsHomeController.m in Sources */,
 				4D25BE1319BC53A800579C10 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				4D25BE2819BD95BB00579C10 /* URMAddMyServerController.m in Sources */,
 				4D25BE1619BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				4D25BE1419BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				4D5F167119B9A1CF003BC065 /* main.m in Sources */,
+				4D25BE2119BD896000579C10 /* URMMyServersHomeController.m in Sources */,
 				4D25BE1519BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				4D5F167519B9A1CF003BC065 /* URMAppDelegate.m in Sources */,
 				4D25BE0619BC538E00579C10 /* SlideNavigationController.m in Sources */,

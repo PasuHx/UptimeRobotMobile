@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideNavigationController.h"
+#import "URMLeftMenuViewController.h"
 
 @interface URMAppDelegate : UIResponder <UIApplicationDelegate>
 

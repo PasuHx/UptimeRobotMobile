@@ -12,8 +12,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
+															 bundle: nil];
+	
+	URMLeftMenuViewController *leftMenu = (URMLeftMenuViewController*)[mainStoryboard
+                                                                 instantiateViewControllerWithIdentifier: @"LeftMenuViewController"];
+
+	[SlideNavigationController sharedInstance].leftMenu = leftMenu;
+	
+	
     // Override point for customization after application launch.
     return YES;
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
