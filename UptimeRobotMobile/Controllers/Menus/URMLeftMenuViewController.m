@@ -41,9 +41,9 @@
                      ,@"联系人"
                      ,nil];
     
-    self.tableView.contentInset=UIEdgeInsetsMake(52, 0, 0, 0);
+    self.tableView.contentInset=UIEdgeInsetsMake(50, 0, 0, 0);
     [self.tableView addSubview:self.topImg];
-    self.topImg.frame=CGRectMake(5, -38, 180, 52);
+    self.topImg.frame=CGRectMake(5, -28, 90, 26);
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
