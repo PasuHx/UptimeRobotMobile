@@ -27,8 +27,16 @@
                             <outlet property="delegate" destination="XyY-Qw-CdA" id="MT1-JQ-Ymc"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="tableView" destination="HiN-xE-5zy" id="duW-Xm-m6N"/>
+                        <outlet property="topImg" destination="p7T-3Y-JrH" id="upY-XP-DZg"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C13-SJ-pxg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UptimeRobot" id="p7T-3Y-JrH">
+                    <rect key="frame" x="0.0" y="76" width="180" height="52"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </objects>
             <point key="canvasLocation" x="-39" y="44"/>
         </scene>
@@ -122,6 +130,9 @@
             <point key="canvasLocation" x="434" y="44"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="UptimeRobot" width="180" height="52"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

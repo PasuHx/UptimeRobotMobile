@@ -14,6 +14,8 @@
 #import "SlideNavigationContorllerAnimatorSlideAndFade.h"
 
 @interface URMLeftMenuViewController ()
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) IBOutlet UIImageView *topImg;
 @property (nonatomic, strong) NSMutableArray *menuItem;
 @end
 
@@ -38,6 +40,11 @@
                      @"服务器"
                      ,@"联系人"
                      ,nil];
+    
+    self.tableView.contentInset=UIEdgeInsetsMake(52, 0, 0, 0);
+    //[self.view addSubview:self.tableView];
+    [self.tableView addSubview:self.topImg];
+    self.topImg.frame=CGRectMake(5, -38, 180, 52);
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
