@@ -39,6 +39,7 @@
     self.menuItem = [NSMutableArray arrayWithObjects:
                      @"服务器"
                      ,@"联系人"
+                     ,@"设置"
                      ,nil];
     
     self.tableView.contentInset=UIEdgeInsetsMake(50, 0, 0, 0);

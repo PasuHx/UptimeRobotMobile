@@ -32,6 +32,10 @@
 		4D5F168619B9A1CF003BC065 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5F166819B9A1CF003BC065 /* UIKit.framework */; };
 		4D5F168E19B9A1CF003BC065 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D5F168C19B9A1CF003BC065 /* InfoPlist.strings */; };
 		4D5F169019B9A1CF003BC065 /* UptimeRobotMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5F168F19B9A1CF003BC065 /* UptimeRobotMobileTests.m */; };
+		4D8F448D19CE5B7300BECB64 /* URMMonitorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F448C19CE5B7300BECB64 /* URMMonitorModel.m */; };
+		4D8F449019CE5C1100BECB64 /* URMAlertContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F448F19CE5C1100BECB64 /* URMAlertContactModel.m */; };
+		4D8F449319CE5C8A00BECB64 /* URMLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F449219CE5C8A00BECB64 /* URMLogModel.m */; };
+		4D8F449619CE5D3A00BECB64 /* URMResponseTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F449519CE5D3A00BECB64 /* URMResponseTimeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +90,14 @@
 		4D5F168B19B9A1CF003BC065 /* UptimeRobotMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UptimeRobotMobileTests-Info.plist"; sourceTree = "<group>"; };
 		4D5F168D19B9A1CF003BC065 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D5F168F19B9A1CF003BC065 /* UptimeRobotMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UptimeRobotMobileTests.m; sourceTree = "<group>"; };
+		4D8F448B19CE5B7300BECB64 /* URMMonitorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URMMonitorModel.h; path = Resources/Models/URMMonitorModel.h; sourceTree = "<group>"; };
+		4D8F448C19CE5B7300BECB64 /* URMMonitorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URMMonitorModel.m; path = Resources/Models/URMMonitorModel.m; sourceTree = "<group>"; };
+		4D8F448E19CE5C1100BECB64 /* URMAlertContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URMAlertContactModel.h; path = Resources/Models/URMAlertContactModel.h; sourceTree = "<group>"; };
+		4D8F448F19CE5C1100BECB64 /* URMAlertContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URMAlertContactModel.m; path = Resources/Models/URMAlertContactModel.m; sourceTree = "<group>"; };
+		4D8F449119CE5C8A00BECB64 /* URMLogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URMLogModel.h; path = Resources/Models/URMLogModel.h; sourceTree = "<group>"; };
+		4D8F449219CE5C8A00BECB64 /* URMLogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URMLogModel.m; path = Resources/Models/URMLogModel.m; sourceTree = "<group>"; };
+		4D8F449419CE5D3A00BECB64 /* URMResponseTimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URMResponseTimeModel.h; path = Resources/Models/URMResponseTimeModel.h; sourceTree = "<group>"; };
+		4D8F449519CE5D3A00BECB64 /* URMResponseTimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URMResponseTimeModel.m; path = Resources/Models/URMResponseTimeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,7 @@
 		4D25BE0019BC515800579C10 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4D8F448A19CE5A8E00BECB64 /* Models */,
 				4D25BE1719BC558200579C10 /* Controllers */,
 				4D25BE0119BC519200579C10 /* Controls */,
 			);
@@ -272,6 +285,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4D8F448A19CE5A8E00BECB64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F448B19CE5B7300BECB64 /* URMMonitorModel.h */,
+				4D8F448C19CE5B7300BECB64 /* URMMonitorModel.m */,
+				4D8F448E19CE5C1100BECB64 /* URMAlertContactModel.h */,
+				4D8F448F19CE5C1100BECB64 /* URMAlertContactModel.m */,
+				4D8F449119CE5C8A00BECB64 /* URMLogModel.h */,
+				4D8F449219CE5C8A00BECB64 /* URMLogModel.m */,
+				4D8F449419CE5D3A00BECB64 /* URMResponseTimeModel.h */,
+				4D8F449519CE5D3A00BECB64 /* URMResponseTimeModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,14 +398,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8F449619CE5D3A00BECB64 /* URMResponseTimeModel.m in Sources */,
 				4D5F167B19B9A1CF003BC065 /* URMViewController.m in Sources */,
 				4D25BE1B19BC560400579C10 /* URMLeftMenuViewController.m in Sources */,
 				4D25BE2519BD953200579C10 /* URMMyContactsHomeController.m in Sources */,
+				4D8F448D19CE5B7300BECB64 /* URMMonitorModel.m in Sources */,
 				4D25BE1319BC53A800579C10 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				4D25BE2819BD95BB00579C10 /* URMAddMyServerController.m in Sources */,
 				4D25BE1619BC53A800579C10 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				4D25BE1419BC53A800579C10 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				4D5F167119B9A1CF003BC065 /* main.m in Sources */,
+				4D8F449319CE5C8A00BECB64 /* URMLogModel.m in Sources */,
+				4D8F449019CE5C1100BECB64 /* URMAlertContactModel.m in Sources */,
 				4D25BE2119BD896000579C10 /* URMMyServersHomeController.m in Sources */,
 				4D25BE1519BC53A800579C10 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				4D5F167519B9A1CF003BC065 /* URMAppDelegate.m in Sources */,
